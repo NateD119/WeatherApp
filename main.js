@@ -10,9 +10,9 @@ function getWeather() {
     
     fetch('http://dataservice.accuweather.com/currentconditions/v1/48329?'
     )
-        .then(response => response.json())
-        .then(json => {
-          for (let i = 0; i < json.length; i++) {
+    .then(response => response.json())
+    .then(json => {
+        for (let i = 0; i < json.length; i++) {
             console.log(json[i]);
             message += json[i].WeatherText + "<br>";
             message2 += json[i].Temperature.Imperial.Value + "<br>";
