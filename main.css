@@ -1,0 +1,32 @@
+
+html {
+    background: url('/images/background.jpg')no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+body {
+    
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#currentConditions {
+    background-color: rgb(127, 126, 125);
+    width: 275px;
+    text-align: center;
+    margin:auto;
+    border: 3px solid rgb(17, 18, 17);
+    border-radius: 20px;
+    color: white;
+}
+#myh1{
+    background-color: grey;
+    color: rgb(255, 184, 3);
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+      
+}
